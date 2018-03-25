@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.kang</groupId>
-	<artifactId>springstudy-mvn-007</artifactId>
+	<artifactId>springsutdy-mvn-007</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springstudy-mvn-004</name>
+	<name>springsutdy-mvn-007</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
