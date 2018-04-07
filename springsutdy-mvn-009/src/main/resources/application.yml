@@ -1,0 +1,33 @@
+spring:
+  profiles: default
+server:
+  port: 8090
+app:
+  hello: Hello default
+acme:
+  list:
+    - name: my name1
+      description: my description1
+    - name: my name2
+      description: my description2
+third:
+  list:
+    - name: my name3
+      description: my description1
+    - name: my name4
+      description: my description2
+---
+spring:
+  profiles: development
+server:
+  port: 8090
+app:
+  hello: Hello development
+
+---
+spring:
+  profiles: production
+server:
+  port: 8090
+app:
+  hello: Hello production
