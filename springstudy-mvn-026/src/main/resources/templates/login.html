@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="/webjars/jquery/3.0.0/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body onload="document.f.username.focus();">
+<div class="container">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <a class="brand" href="http://www.thymeleaf.org"> Thymeleaf - Plain </a>
+            <ul class="nav">
+                <li><a th:href="@{/}" href="home.html"> Home </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <p th:if="${param.logout}" class="alert">You have been logged out</p>
+        <p th:if="${param.error}" class="alert alert-error">There was an error, please try again</p>
+        <h2>Login with Username and Password</h2>
+        <form name="form" th:action="@{/login}" action="/login" method="POST">
+            <fieldset class="form-group">
+                <label for="username" >username</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="username" />
+            </fieldset>
+            <fieldset class="form-group">
+                <label for="password"  >password</label>
+                <input type="text" class="form-control" id="password" name="password" placeholder="password" />
+            </fieldset>
+
+            <input type="submit" id="login" value="Login"
+                   class="btn btn-primary" />
+        </form>
+    </div>
+</div>
+</body>
+</html>

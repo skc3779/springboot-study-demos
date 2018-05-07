@@ -1,6 +1,4 @@
-package org.kang.springstudymvn014.user;
-
-import javax.xml.bind.annotation.XmlRootElement;
+package org.kang.springstudymvn026.user;
 
 //@XmlRootElement
 public class User {

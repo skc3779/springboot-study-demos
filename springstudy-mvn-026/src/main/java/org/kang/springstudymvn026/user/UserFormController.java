@@ -1,4 +1,4 @@
-package org.kang.springstudymvn014.user;
+package org.kang.springstudymvn026.user;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;

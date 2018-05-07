@@ -1,4 +1,4 @@
-package org.kang.springstudymvn014;
+package org.kang.springstudymvn016;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
