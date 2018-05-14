@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="/webjars/jquery/3.0.0/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        h3 {text-align: center;}
+    </style>
+</head>
+<body>
+    <h3>Hello World (url path static)</h3>
+    <div class="container"><br/>
+        <div class="alert alert-success">
+            <a href="#" class="close" data-dismiss="alert"
+               aria-label="close">×</a>
+            <strong>Success!</strong> It is working as we expected.
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    $(document).ready(function(){
+        $("h3").css("color","red");
+    });
+</script>
